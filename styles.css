@@ -40,6 +40,15 @@ a {
   margin: 0 auto;
   padding: 0 2rem;
 }
+.section-space {
+  padding: 50px 0;
+}
+.button {
+  max-width: fit-content;
+  border: none;
+  cursor: pointer;
+  border-radius: 55px;
+}
 /* end of global styles */
 
 /* navbar styles */
@@ -74,6 +83,110 @@ nav {
   display: flex;
   gap: 1rem;
 }
+
 /* .nav-list {
 } */
 /* navbar styles */
+
+/* HERO STYLES START */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.left-hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  max-width: 420px;
+}
+.hero-text {
+  font-weight: 300;
+  font-size: 21px;
+  max-width: 440px;
+  color: var(--para-color);
+}
+.hero-btn {
+  padding: 18px 40px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.right-hero-content {
+  flex: 1;
+}
+/* HERO STYLES END */
+
+/* SERVICES STYLES START */
+.services {
+  background: url(./images/service-bg.png);
+  background-size: cover;
+
+}
+.service-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.top-service {
+  text-align: center;
+}
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.services-text {
+  max-width: 850px;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--para-color);
+  margin-top: 0.9rem;
+}
+.middle-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 33.33%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 350px;
+  height: auto;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.card-image {
+  width: 70px;
+  height: 70px;
+}
+.card h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.card p {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--para-color);
+  max-width: 260px;
+}
+/* .bottom-service {
+} */
+.service-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+}
+/* SERVICES STYLES END */
