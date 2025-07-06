@@ -130,7 +130,15 @@ nav {
   /* overflow: hidden; */
   padding: 100px 0;
 }
-
+.service-bg-image {
+  position: absolute;
+  top: 200px;
+  left: -5px;
+  width: 500px;
+  z-index: 0;
+  opacity: 0.3;
+  pointer-events: none;
+}
 .service-content {
   display: flex;
   justify-content: center;
@@ -162,15 +170,7 @@ nav {
   gap: 1rem;
   flex-wrap: wrap;
 }
-.service-bg-image {
-  position: absolute;
-  top: 200px;
-  left: -5px;
-  width: 500px;
-  z-index: 0;
-  opacity: 0.3;
-  pointer-events: none;
-}
+
 .card {
   flex: 33.33%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -207,3 +207,41 @@ nav {
   border: 1px solid var(--primary-color);
 }
 /* SERVICES STYLES END */
+
+/* PROVIDER STYLES START */
+.providers {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.provider-image {
+  max-width: 650px;
+  max-height: 470px;
+}
+.provider-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.provider-title {
+  max-width: 480px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+
+}
+.provider-text {
+  max-width: 450px;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--para-color);
+}
+.provider-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+}
+/* PROVIDER STYLES END */
