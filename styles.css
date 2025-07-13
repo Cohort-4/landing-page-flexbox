@@ -94,7 +94,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  height: 100vh;
+  height: 90vh;
 }
 .left-hero-content {
   flex: 1;
@@ -261,7 +261,7 @@ nav {
   gap: 2rem;
 }
 .downloads-title {
-  max-width: 480px;
+  max-width: 245px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
